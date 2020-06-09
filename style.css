@@ -3,64 +3,71 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    /* height: 800px; */
 
 }
-#container{
+/* #container{
     width: 960px;
     margin: 0px auto;
-    /* background-image: url("images/iPad\ mini\ -\ 1.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover; */
-    height: auto;
-}
+} */
 
 
-@media screen and (max-width:959px){
-    #container{
-        width: auto;
-    }
+@media screen and (max-width:1024px){
     .mainmenu{
         width: auto;
     }
-    .header{
-        width: auto;
-    }
+   
     .boxcontainer{
         width: auto;
     }
     img{
-        width: fit-content;
+        width: auto;
     }
 }
 
 @media screen and (max-width:640px){
-    #container{
-        width: auto;
-    }
     .mainmenu{
         width: auto;
     }
-    .header{
-        width: auto;
-    }
+
     .boxcontainer{
         width: auto;
     }
     img{
-        width: fit-content;
+        width: auto;
     }
 }
-.header{
-    font-family: 'Nunito', sans-serif;
-    color: black;
+
+@media screen and (max-width:639px){
+    body{
+        height: 790px;
+        background-image: url("images/Group\ 34.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    }
+    .mainmenu{
+        width: auto;
+    }
+
+    .boxcontainer{
+        width: auto;
+    }
+    img{
+        width: auto;
+    }
 }
+
+
 
 .mainmenu{
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-between; 
     width: 100%;
+    /* border: 2px dotted black; */
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .uploadbutton {
