@@ -1,0 +1,123 @@
+body{
+    background-image: url("images/iPad\ mini\ -\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+}
+#container{
+    width: 960px;
+    margin: 0px auto;
+    /* background-image: url("images/iPad\ mini\ -\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover; */
+    height: auto;
+}
+
+
+@media screen and (max-width:959px){
+    #container{
+        width: auto;
+    }
+    .mainmenu{
+        width: auto;
+    }
+    .header{
+        width: auto;
+    }
+    .boxcontainer{
+        width: auto;
+    }
+    img{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width:640px){
+    #container{
+        width: auto;
+    }
+    .mainmenu{
+        width: auto;
+    }
+    .header{
+        width: auto;
+    }
+    .boxcontainer{
+        width: auto;
+    }
+    img{
+        width: fit-content;
+    }
+}
+.header{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.mainmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 100%;
+}
+
+.uploadbutton {
+    padding-top: 20px;
+}
+
+.menubutton{
+    padding-top: 18px;
+}
+
+.boximage{
+    align-content: center;
+    box-shadow: 0px 20px 20px 0px  rgba(26, 25, 25, 0.233);
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5%;
+}
+
+
+
+.boxcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 100%;
+    padding-bottom: 10px;
+    
+
+}
+
+.searchsthanak{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.searchstate{
+    box-shadow: 0px 20px 20px 0px  rgba(26, 25, 25, 0.233);
+    padding: 50px;
+    border-radius: 5%;
+}
+
+.searchbox{
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+#cars{
+    padding: 2% 30%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 100%;
+    margin: 2% 2%;
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px 0px  rgba(26, 25, 25, 0.233);
+    background-color: white;
+    border: 2px solid #11111150;
+  }
